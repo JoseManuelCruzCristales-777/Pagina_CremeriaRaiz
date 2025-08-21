@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cremería Raíz - El Auténtico Sabor de la Tradición Oaxaqueña</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Sticky -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo-cremeria-raiz.png" alt="Cremería Raíz" class="logo-img">
+                    <span class="logo-text">Cremería Raíz</span>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                        <li><a href="#productos" class="nav-link">Nuestros Quesos</a></li>
+                        <li><a href="#historia" class="nav-link">Nuestra Historia</a></li>
+                        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                        <li><a href="login.php" class="nav-link login-link">Administración</a></li>
+                    </ul>
+                </nav>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-background">
+            <img src="images/hero-queso-artesanal.jpg" alt="Queso Artesanal Oaxaqueño" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title fade-in">El Auténtico Sabor de la Tradición Oaxaqueña</h1>
+                <p class="hero-subtitle fade-in">Desde 1950, creando quesos artesanales con el corazón de Oaxaca</p>
+                <a href="#productos" class="cta-button fade-in">Ver Nuestros Quesos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Productos -->
+    <section class="productos" id="productos">
+        <div class="container">
+            <h2 class="section-title">Descubre Nuestra Variedad</h2>
+            <p class="section-subtitle">Cada queso cuenta una historia de tradición y sabor auténtico</p>
+            
+            <div class="productos-grid">
+                <div class="producto-card">
+                    <div class="producto-image">
+                        <img src="images/queso-oaxaca.jpg" alt="Queso Oaxaca">
+                        <div class="producto-overlay">
+                            <button class="producto-btn">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto-info">
+                        <h3 class="producto-name">Queso Oaxaca Tradicional</h3>
+                        <p class="producto-description">El clásico queso de hebra oaxaqueño, perfecto para quesadillas y tlayudas.</p>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-image">
+                        <img src="images/queso-fresco.jpg" alt="Queso Fresco">
+                        <div class="producto-overlay">
+                            <button class="producto-btn">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto-info">
+                        <h3 class="producto-name">Queso Fresco de Rancho</h3>
+                        <p class="producto-description">Suave y cremoso, elaborado con leche fresca de vacas alimentadas naturalmente.</p>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-image">
+                        <img src="images/queso-requesón.jpg" alt="Requesón">
+                        <div class="producto-overlay">
+                            <button class="producto-btn">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto-info">
+                        <h3 class="producto-name">Requesón Artesanal</h3>
+                        <p class="producto-description">Delicado y nutritivo, ideal para postres y preparaciones dulces tradicionales.</p>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-image">
+                        <img src="images/queso-crema.jpg" alt="Queso Crema">
+                        <div class="producto-overlay">
+                            <button class="producto-btn">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto-info">
+                        <h3 class="producto-name">Queso Crema Premium</h3>
+                        <p class="producto-description">Textura suave y sabor intenso, perfecto para untar y cocinar.</p>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-image">
+                        <img src="images/queso-manchego.jpg" alt="Queso Manchego">
+                        <div class="producto-overlay">
+                            <button class="producto-btn">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto-info">
+                        <h3 class="producto-name">Manchego Oaxaqueño</h3>
+                        <p class="producto-description">Madurado con técnicas tradicionales, de sabor profundo y textura firme.</p>
+                    </div>
+                </div>
+
+                <div class="producto-card">
+                    <div class="producto-image">
+                        <img src="images/queso-doble-crema.jpg" alt="Queso Doble Crema">
+                        <div class="producto-overlay">
+                            <button class="producto-btn">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto-info">
+                        <h3 class="producto-name">Doble Crema Especial</h3>
+                        <p class="producto-description">Extraordinariamente cremoso, el favorito de los conocedores del buen queso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Historia -->
+    <section class="historia" id="historia">
+        <div class="container">
+            <div class="historia-content">
+                <div class="historia-image">
+                    <img src="images/historia-familia.jpg" alt="Historia de Cremería Raíz" class="historia-img">
+                </div>
+                <div class="historia-text">
+                    <h3 class="historia-title">Nacimos de la Tierra, Crecimos en Familia</h3>
+                    <p class="historia-description">
+                        Desde 1950, Cremería Raíz ha sido guardiana de las técnicas ancestrales de elaboración de quesos en Oaxaca. 
+                        Lo que comenzó como un pequeño negocio familiar se ha convertido en una tradición que pasa de generación en generación, 
+                        manteniendo siempre el compromiso con la calidad y el sabor auténtico que caracteriza a los quesos oaxaqueños.
+                    </p>
+                    <p class="historia-description">
+                        Nuestros maestros queseros combinan la sabiduría heredada de nuestros antepasados con técnicas modernas de higiene y conservación, 
+                        garantizando que cada queso que llega a tu mesa conserve ese sabor único que solo la tradición puede crear. 
+                        Trabajamos directamente con productores locales, apoyando la economía de nuestras comunidades y preservando las razas bovinas nativas.
+                    </p>
+                    <div class="historia-stats">
+                        <div class="stat">
+                            <span class="stat-number">75+</span>
+                            <span class="stat-label">Años de Tradición</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Generaciones</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Artesanal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo-cremeria-raiz-white.png" alt="Cremería Raíz" class="footer-logo-img">
+                        <span class="footer-logo-text">Cremería Raíz</span>
+                    </div>
+                    <p class="footer-slogan">"El auténtico sabor de la tradición oaxaqueña"</p>
+                    <p class="footer-description">Elaborando quesos artesanales desde 1950 con el corazón de Oaxaca</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Enlaces</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Nuestros Quesos</a></li>
+                        <li><a href="#historia">Nuestra Historia</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                    <div class="footer-social">
+                        <h5 class="social-title">Síguenos</h5>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Contacto</h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Central de Abastos de Oaxaca<br>Oaxaca de Juárez, Oaxaca</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+52 951 514 2086</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contacto@cremeriaraiz.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Lun - Sáb: 7:00 AM - 6:00 PM<br>Dom: 8:00 AM - 4:00 PM</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Mapa de Google Maps -->
+                    <div class="map-container">
+                        <h5 class="map-title">Nuestra Ubicación</h5>
+                        <div class="google-map">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3813.8543211!2d-96.7056056!3d17.0470899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c722e9f5c5b7a7%3A0x8b1234567890abcd!2sCentral%20de%20Abastos%2C%20Oaxaca%20de%20Ju%C3%A1rez%2C%20Oax.%2C%20Mexico!5e0!3m2!1sen!2smx!4v1693525200000!5m2!1sen!2smx"
+                                width="100%" 
+                                height="100%" 
+                                style="border:0; border-radius: 8px;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Ubicación de Cremería Raíz en Central de Abastos de Oaxaca">
+                            </iframe>
+                        </div>
+                        <div class="map-link">
+                            <a href="https://www.google.com/maps/place/Central+de+Abastos,+Oaxaca+de+Ju%C3%A1rez,+Oax.,+Mexico/@17.0470899,-96.7056056,15z" 
+                               target="_blank" 
+                               class="map-button">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Ver en Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cremería Raíz. Todos los derechos reservados. | Hecho con ❤️ en Oaxaca</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
